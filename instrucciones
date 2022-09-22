@@ -2,3 +2,14 @@ npm init -y
 npm i express
 npm i express dotenv
 npm install cors
+
+#git
+git init
+git add .
+git commit -m 'Estructura rest server'
+git branch -M main
+git remote add origin https://github.com/Juanjofs/RepoApiRest.git
+git push -u origin main
+#para version
+git tag -a v1.0.0 -m "estructura inicial"
+git push --tags
